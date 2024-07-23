@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px){ /* CONFG PARA TABLET */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     .login {
         width: 80vw;
+        height: 280px;
     }
 
     .imagem {
@@ -19,13 +20,12 @@
         float: right;
         width: 70%;
     }
-
-    
 }
 
 @media screen and (min-width: 992px) {
     .login {
         width: 950px;
+        height: 340px;
     }
 
     .imagem {
@@ -44,6 +44,7 @@
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
